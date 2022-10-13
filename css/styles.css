@@ -68,6 +68,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .gal-img {
@@ -164,6 +165,14 @@
     bottom: 0;
 }
 
+.navbar-collapse div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-collapse div button {
+    flex-grow: 1;
+}
 
 
 /* RESPONSIVE */
@@ -176,15 +185,8 @@
     .col-7 {
         width: 100%;
     }
-
-    .navbar-collapse div {
-        display: flex;
-        justify-content: space-between;
-    }
     
-    .navbar-collapse div button {
-        width: 50%;
-    }
+
 
     .container {
         /* margin: 0 10px 0 10px; */
